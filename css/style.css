@@ -2,3 +2,11 @@ body {
   padding-top: 56px;
   background-color: #2c2f31; !important;
 }
+
+.bg-blue {
+  background-color: #0056b3; !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}

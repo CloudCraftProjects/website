@@ -18,3 +18,7 @@ hr {
 .fake-click {
   cursor: pointer;
 }
+
+.nav-link {
+  color: #FFF !important;
+}

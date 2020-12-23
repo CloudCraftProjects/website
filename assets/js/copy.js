@@ -24,15 +24,3 @@ function copyTextToClipboard(text) {
     }, function (error) {
     });
 }
-
-let copyBobBtn = document.querySelector('.js-copy-bob-btn');
-let copyJaneBtn = document.querySelector('.js-copy-jane-btn');
-
-copyBobBtn.addEventListener('click', function () {
-    copyTextToClipboard('Bob');
-});
-
-
-copyJaneBtn.addEventListener('click', function () {
-    copyTextToClipboard('Jane');
-});

@@ -19,7 +19,6 @@ window.onload = async function () {
         console.warn('Setting server status to offline! (Response: ' + response + ')');
         element.innerHTML = '<h2 style="color: red;">Der Server ist offline!</h2>';
       } else {
-        if (response.favicon) element.innerHTML += '<img style="float: left;" src="' + response.favicon + '" alt="favicon" />';
         element.innerHTML += '<h3 style="position: relative; padding-left: 85px; padding-top: 15px;">Spieler: ' + response.players.now + '/' + response.players.max + '</h3><br/>';
 
         if (response.players.sample.length > 0) {

@@ -20,13 +20,12 @@ window.onload = async function () {
         element.innerHTML = '<h2 style="color: red;">Der Server ist offline!</h2>';
       } else {
         if (response.favicon) element.innerHTML += '<img style="float: left;" src="' + response.favicon + '" alt="favicon" />';
-        element.innerHTML += '<p style="float: right;" class="py-mb">Aktuell sind ' + response.players.now + ' von ' + response.players.max + ' Spielern online!</p>';
+        element.innerHTML += '<h3 style="position: relative; padding-left: 85px; padding-top: 15px;">Spieler: ' + response.players.now + '/' + response.players.max + '</h3><br/>';
 
         if (response.players.sample.length > 0) {
-          element.innerHTML += '<h2 style="float: left;">Es sind folgende Spieler online:</h2><br/><br/>';
           for (let i = 0; i < response.players.sample.length; i++) {
             const player = response.players.sample[i];
-            element.innerHTML += '<div class="row"><div class="col"><p>' + player.name + '</p></div><div class="col"><img src="https://cravatar.eu/helmhead/' + player.id + '/32" alt="' + player.name + '" /></div></div><br/>';
+            element.innerHTML += '<div class="row" style="position: relative; padding-left: 85px;"><div><img src="https://cravatar.eu/helmhead/' + player.id + '/32" alt="' + player.name + '" /></div><div class="col"><p>' + player.name + '</p></div></div>';
           }
         } else {
           element.innerHTML += '<h2 style="color: red; float: left;">Es sind keine Spieler online!</h2>';

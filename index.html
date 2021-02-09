@@ -86,7 +86,7 @@
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
       </iframe>
     </div>
-    <div class="col" id="insert-player-list"></div>
+    <div class="col" id="insert-player-list" onclick="copyText('cc-mc.tk')" style="cursor: pointer;"></div>
   </div>
 
   <div class="row text-black">
@@ -185,12 +185,15 @@
   </div>
 </div>
 
+<div id="info-container"></div>
+
 <footer class="py-5 bg-dark">
   <div class="container">
     <script>writeCopyright();</script>
   </div>
 </footer>
 
+<script src="assets/js/copy.js"></script>
 <script src="assets/js/pinger.js"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -61,25 +61,22 @@
 
 <div class="container text-white">
   <div class="row">
-    <div class="col-md-8 mb-5">
+    <div class="col">
       <h2>Über uns</h2>
       <hr>
       <p>CloudCraft hostet viele unterschiedliche Minecraft Projekte.</p>
       <p>Es gibt Langzeitprojekte wie z.B. CraftAttack, Kingdoms, o.ä., aber auch<br>
         kürzere Events, wie z.B. Among Us in Minecraft, Anarchy, Varo oder CloudWars.</p>
       <div class="row">
-        <div class="col-md-2 mb-1">
+        <div class="col-md-4">
           <a class="btn btn-primary btn-lg bg-blue" href="https://status.cc-mc.tk/">Status</a>
         </div>
-        <div class="col-md-2 mb-1">
+        <div class="col-md-4">
           <a class="btn btn-primary btn-lg bg-blue" href="discord">Discord</a>
-        </div>
-        <div class="col-md-2 mb-1">
-          <a class="btn btn-primary btn-lg bg-blue" href="https://www.instagram.com/cloudcraft_mc/">Instagram</a>
         </div>
       </div>
     </div>
-    <div class="col-md-4 mb-5">
+    <div class="col">
       <iframe
         title="Discord Server"
         src="https://discord.com/widget?id=737751273163718668&theme=dark"
@@ -89,6 +86,7 @@
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
       </iframe>
     </div>
+    <div class="col" id="insert-player-list"></div>
   </div>
 
   <div class="row text-black">
@@ -193,6 +191,7 @@
   </div>
 </footer>
 
+<script src="assets/js/pinger.js"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

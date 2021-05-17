@@ -5,42 +5,42 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://cc-mc.tk/</loc>
+        <loc>https://cloudcraftmc.de/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/projects/</loc>
+        <loc>https://cloudcraftmc.de/projects/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.90</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/sponsor/</loc>
+        <loc>https://cloudcraftmc.de/sponsor/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/discord/</loc>
+        <loc>https://cloudcraftmc.de/discord/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.90</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/projects/craftattack/</loc>
+        <loc>https://cloudcraftmc.de/projects/craftattack/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/projects/varo/</loc>
+        <loc>https://cloudcraftmc.de/projects/varo/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/projects/cloudwars/</loc>
+        <loc>https://cloudcraftmc.de/projects/cloudwars/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://cc-mc.tk/sponsor/vote/</loc>
+        <loc>https://cloudcraftmc.de/sponsor/vote/</loc>
         <lastmod>2020-12-08T20:34:21+00:00</lastmod>
         <priority>0.80</priority>
     </url>

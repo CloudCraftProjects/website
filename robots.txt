@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://cc-mc.tk/sitemap.xml
+Sitemap: https://cloudcraftmc.de/sitemap.xml
